@@ -70,6 +70,7 @@ input::placeholder{
   text-align: center;
   font-weight: 800;
   color: #C9ADA7;
+  margin-bottom: 30px;
 }
 
 .buttons {
