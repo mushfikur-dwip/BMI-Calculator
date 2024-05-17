@@ -1,51 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    font-family: "Poppins", sans-serif;
+/*  Color Code
+
+#22223B, #06d6a0, #C9ADA7, #60e5c2, #80eace
+
+*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
-.app{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    background-color: #F2E9E4;
 }
+
 .container {
   box-shadow: 0px 0px 12px #ccc;
   border-radius: 8px;
-  padding: 3rem !important;
+  padding: 5rem !important;
   width: 500px !important;
   min-height: 500px !important;
-
-
+  background: #22223B;
 }
 /* .app .container h2{
     font-size: 22px;
     margin: 40px 0 20px 0;
 } */
 
-label{
-    font-size: 16px;
-
+label {
+  font-size: 16px;
+  color: #C9ADA7;
 }
-.weight, .height{
+.weight,
+.height {
+  display: flex;
+  flex-direction: column;
+}
+
+.height {
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  font-size: 16px !important;
+  padding: 15px 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: solid 1px #4A4E69;
+  color: #7C94B4;
+  font-weight: 600;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder{
+    color: #4A4E69;
+}
+.heading h1 {
+  text-align: center;
+  font-weight: 800;
+  color: #C9ADA7;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column !important;
+  margin-top: 20px;
+}
+.submit_btn,
+.reload {
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  color: #ffff;
+  background-color: #C9ADA7;
+}
+
+.reload {
+  margin-top: 20px;
+}
+
+.msg{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #F2E9E4;
 }
-input{
-    width: 100%;
-    font-size: 1.2rem;
-    padding: 15px 4px;
-    margin: 8px 0;
-    border-radius: 8px;
-    border: solid 1px rgb(89, 89, 255);
-}
-
-input:focus{
-    outline: none;
+.bmi-point, .bmi-msg{
+    font-weight: bold;
 }
