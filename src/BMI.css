@@ -92,7 +92,7 @@ input::placeholder {
   margin-top: 20px;
 }
 
-.msg {
+.msg{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,6 +102,39 @@ input::placeholder {
   color: #f2e9e4;
 }
 .bmi-point,
-.bmi-msg {
+.bmi-msg{
   font-weight: bold;
+}
+
+a{
+  color: #c9ada7 !important;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+.dev {
+  position: relative;
+  left: 130px;
+  top: 55px;
+}
+
+/* Hide the up and down arrows for number inputs */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem !important;
+    width: 90% !important;
+  }
+  .dev {
+    left: 0px;
+    top: 25px;
+  }
 }
