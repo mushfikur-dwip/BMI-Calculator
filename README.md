@@ -1,6 +1,8 @@
 Destop View
 ![image](https://github.com/user-attachments/assets/0e9415f9-cfd0-4376-b9e4-cef653e123b5)
-Mobile View
+
+Mobile View 
+
 ![image](https://github.com/user-attachments/assets/e08ee8a2-fb36-4637-93ca-af8caf1f311e)
 
 Last update: 27 July, 2024
